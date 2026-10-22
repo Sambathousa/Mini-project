@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  base: '/Mini-project/', // <-- បន្ថែមបន្ទាត់នេះចូល (ត្រូវតែមានឈ្មោះ Repository របស់អ្នក)
   plugins: [tailwindcss()],
   build: {
     rollupOptions: {
